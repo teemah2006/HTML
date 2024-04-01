@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="./home.html" method="get">
+
+        <p><label for="">Username: </label> <input type="text" name="username" id="username" placeholder="username" />
+        </p>
+        <p><label for="">Password: </label> <input type="password" name="password" id="password"
+                placeholder="password" /></p>
+        <p><label for="">Upload CV: </label> <input type="file" accept=".doc,.docx,.pdf"></p>
+        <p><label for="">DOB: </label> <input type="date" name="dob" id="dob" required /></p>
+        <p><label for="">Tel: </label> <input type="tel" placeholder="234-128-4223-555"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}-[0-9]{3}" /></p>
+        <p><label for="">Fee: </label> <input type="number" min="200" max="400" /></p>
+        <p><label for="">Fee: </label> <input type="range" min="200" max="400" step="5" value="250" /></p>
+        <p><label for="">Time: </label> <input type="time" id="today" /></p>
+        <p><label for="">Week: </label> <input type="week" /></p>
+        <p><label for="">Email: </label> <input type="email" /></p>
+        <p><label for="">Gender: </label> Male <input type="radio" name="gender" required /> Female <input type="radio"
+                name="gender" required /></p>
+        <p><label for="">Color: </label> <input type="color" /></p>
+
+        <p><label for="">Qualification: </label>
+            <select name="qual" id="qual" required >
+                <option value="" selected></option>
+                <option value="ssce">SSCE</option>
+                <option value="ssce">masters</option>
+                <option value="ssce">primary</option>
+                <option value="ssce">phd</option>
+                <option value="ssce">secondary</option>
+
+            </select>
+        </p>
+        <input type="submit" value="submit">
+
+
+
+    </form>
+</body>
+
+</html>
